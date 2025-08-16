@@ -91,12 +91,6 @@ body {
     margin-top: 20px;
 }
 
-.main img {
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
 .guarantee {
     margin-top: 50px;
     padding: 0 50px;
@@ -185,6 +179,7 @@ body {
 
 .about img {
     width: 280px;
+    border-radius: 20px;
 }
 
 .about .info h3 {
@@ -257,7 +252,26 @@ body {
     padding: 20px;
 }
 
-/* Media Queries for Responsiveness */
+.contact {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contact a {
+    color: #fff;
+    padding: 20px;
+}
+
+.contact li {
+    list-style: none;
+    display: flex; 
+    align-items: center; 
+}
+
+
+/* Minhas midias responsivas */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
